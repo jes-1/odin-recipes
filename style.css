@@ -1,0 +1,22 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.top {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url("https://d2culxnxbccemt.cloudfront.net/craft/content/uploads/a/general/wp-content/uploads/2017/09/lasagnarollups2017.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 1000;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+}
