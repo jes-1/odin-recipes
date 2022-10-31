@@ -37,12 +37,16 @@ h1 {
     list-style: none;
 }
 
-.lasagna-description h2, .lasagna-description p, .lasagna-ingredients, .lasagna-steps {
+.lasagna-description h2, .lasagna-description p, .lasagna-ingredients, .lasagna-steps,
+.lobster-description h2, .lobster-description p, .lobster-ingredients, .lobster-steps,
+.fish-description h2, .fish-description p, .fish-ingredients, .fish-steps {
     text-align: left;
     padding-left: 60px;
     padding-right: 60px;
 }
 
-.lasagna-description p, .lasagna-ingredients, .lasagna-steps {
+.lasagna-description p, .lasagna-ingredients, .lasagna-steps,
+.lobster-description p, .lobster-ingredients, .lobster-steps,
+.fish-description p, .fish-ingredients, .fish-steps {
     padding-bottom:40px;
 }
