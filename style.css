@@ -1,9 +1,15 @@
-body {
+
+body, p {
     font-family: sans-serif;
     text-align: center;
+    background-color: #eedc82;
 }
 
-.top {
+.first-page-text {
+    background: none;
+}
+
+.first-page-heading {
     padding-top: 200px;
     padding-bottom: 200px;
     background-image: url("https://d2culxnxbccemt.cloudfront.net/craft/content/uploads/a/general/wp-content/uploads/2017/09/lasagnarollups2017.jpg");
@@ -11,12 +17,32 @@ body {
     background-size: cover;
 }
 
-h2 {
+.first-page-title {
+    background-color: rgba(238, 220, 130, 0.3);
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+h1 {
     font-size: 50px;
     font-weight: 1000;
 }
 
-ul {
+.list-of-recipe li {
     display: inline-block;
     text-align: left;
+    list-style: none;
+}
+
+.lasagna-description h2, .lasagna-description p, .lasagna-ingredients, .lasagna-steps {
+    text-align: left;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.lasagna-description p, .lasagna-ingredients, .lasagna-steps {
+    padding-bottom:40px;
 }
